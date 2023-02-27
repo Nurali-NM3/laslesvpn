@@ -1,0 +1,255 @@
+@media (max-width:1024px){
+    .container{
+        max-width: 980px;
+        padding: 0 15px;
+    }
+    .col-6{
+        width: 100%;
+        
+    }
+    
+    
+    .col-4{
+        width: 100%;
+       
+    }
+    header{
+        padding: 45px 0;
+    }
+
+    h1{
+        
+    font-size: 45px;
+    text-align: center;
+    }
+    
+    .col-6- button{
+        margin: 0;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .subscribe h2{
+        text-align: unset;
+    }
+    .wrap-subscribe{
+        padding: 20px 10px;
+        align-items: center;
+    }
+    .wantanything p{
+        text-align: center;
+    }
+    
+    .line-nav{
+        display: flex;
+        position: relative;
+        width: 40%;
+    }
+    
+    .line-nav:hover a {
+        color: black;
+        transition: 0.6s;
+    }
+    .wrap-treeline:hover .treeline{
+        border-radius: 10px;
+        transform: skew(150deg);
+        transform-origin: left bottom;
+        
+    }
+    .icons{
+        
+        font-size: 50px;
+       
+    }
+    .star1{
+        padding: 0;
+    }
+    .wow{
+        width: 80%;
+    }
+    .wrap-viezh{
+       display: flex;
+       flex-direction: row;
+        width: 100%;
+        margin-top: 20px;
+        height: 190px;
+    }
+    .viezh{
+        width: 50%;
+    }
+    .box{
+        align-items: center;
+    }
+     .wrap-toy{
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 280px;
+     }
+    .wrap-icons{
+        width: 100%;
+        align-items: center;
+        height: 170px;
+        padding: 30px;
+        display: flex;
+        
+        flex-direction: row;
+    }
+    /* .contant{
+        padding: 0;
+    }
+    .nav{
+        display: none;
+    }
+    
+    .wantanything{
+        gap: 0;
+    }
+    
+    .choose h2,p{
+        
+        padding: 0;
+    } */
+    .chooseh2{
+        width: 100%;
+    }
+    .p90{
+        width: 50px;
+    }
+    .user{
+        width: 50px;
+    }
+    .toy{
+        margin: 0;
+    }
+    
+    .locate{
+        width: 100%;
+        padding:0 50px ;
+    }
+    .wrap-subscribe{
+        width: 100%;
+    }
+    
+    .footer{
+        width: 100%;
+    }
+    .contact{
+        flex-direction: row;
+        gap: 100px;
+    }
+    .footer-lasles{
+        display: none;
+    }
+    .wrap-product{
+        display: none;
+    }
+    .star1{
+        padding-right: 0px;
+    
+    }
+
+
+}
+@media (max-width:760px){
+    .container{
+        max-width: 680px;
+        padding: 0 15px;
+    }
+    .chooseh2{
+        margin-bottom: 30px;
+    }
+    .contact{
+        flex-direction: row;
+        gap: 0px;
+    }
+    .footer{
+        gap: 100px;
+        padding: 300px 0 0 0;
+    }
+    .menu2{
+        display: block;
+    }
+    .nav2{
+        display: block;
+        position: absolute;
+        flex-direction: column;
+        
+        top: -15px;
+        right:  400px;
+    }
+    .nav{
+        display: none;
+    }
+    .header{
+        position: relative;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .header-button{
+        display: none;
+    }
+    .header-button2{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 100px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: 100px;
+    }
+    .header-button2 a{
+        color: #fff;
+        
+    }
+    .header-button2 .header-btn{
+        color: #fff;
+        border: 1px solid #fff;
+        
+    }
+    .menu2:hover .nav2 a{
+        color: #000;
+        transition: 0.6s;
+    }
+    .menu2:hover  .header-btn{
+        color: #000;
+        border: 1px solid #F53855;
+        transition: 0.6s;
+        
+    }
+    .menu2:hover  .sing-in{
+        color: #000;
+        transition: 0.6s;
+    }
+    .hero{
+        padding: 0;
+    }
+    section{
+        padding: 0;
+    }
+    .wrap-viezh{
+        height: 250px;
+    }
+    
+}
+@media (max-width:360px){
+    .container{
+        max-width: 300px;
+        padding: 0 15px;
+    }
+    .wrap-toy{
+        flex-wrap: wrap;
+        height: 600px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}

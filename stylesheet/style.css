@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+header {
+    padding: 45px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+.menu2{
+    display:none
+
+    
+}
+.nav2 a{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.treeline{
+    background-color: #000;
+    width: 50px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    
+}
+.child:not(:last-child) {
+    margin-right: 20px;
+}
+
+.sing-in {
+    font-size: 16px;
+}
+
+.sing-in:hover {
+    color: #F53855;
+    transition: 0.6s;
+}
+
+.header-btn {
+    Width: 150px;
+    border: 1px solid #F53855;
+    Height: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.header-btn:hover {
+    background-color: #F53855;
+    color: #fff;
+    transition: 0.6s;
+}
+
+/* here's style is header all of it */
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.hero{
+    padding: 100px 0;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+
+h1 {
+    
+    
+    font-size: 50px;
+    line-height: 70px;
+}
+span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    height: 60px;
+}
+
+.col-6-button {
+    width: 250px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    color: #F53838;
+    border: 1px solid #F53838;
+    
+}
+.col-6-button:hover{
+    background: #F53838;
+    color: #fff;
+    transition: 0.6s;
+    box-shadow: 10px 10px 20px #F53838;
+}
+/* all of it is hero */
+
+.col-12{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.wrap-c4{
+    display: flex;
+    gap: 20px;
+}
+.p90{
+    font-size: 25px;
+}
+.user{
+    font-size: 20px;
+}
+.wrap-icons{
+    
+height: 200px;
+    background: #FFFFFF;
+border-radius: 10px;
+box-shadow: 4px 4px 8px 0px rgba(13, 16, 37, 0.2);
+
+padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.powerfull{
+    display: flex;
+    flex-direction: row;
+   
+}
+h2{
+    font-size: 35px;
+
+}
+.Powerfull-p{
+    padding: 10px;
+    width: 200px;
+height: 30px;
+font-size: 14px;
+line-height: 0px;
+}
+.contant{
+    padding-left:0px ;
+    padding-top: 0px;
+}
+.explore{
+    width: 350px;
+}
+.person-laptop{
+    padding: 100px 0;
+}
+.likes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.choose{
+    width: 100%;
+}
+.chooseh2{
+    text-align: center;
+    
+    height: 60px;
+    margin-top: 50px;
+}
+.icons{
+    width: 33.33%;
+}
+.global{
+    width: 100%;
+}
+.letchoose{
+    text-align: center;
+    
+    padding:  0px 0px 0px;
+}
+.wrap-choose{
+    background-color: #E5E5E5;
+    
+}
+.wrap-toy{
+    background-color: #fff;
+    text-align: center;
+    
+    align-items: center;
+    gap: 10px;
+    height: 760px;
+    border-radius: 10px;
+}
+.free{
+    width: 150px;
+height: 70px;
+text-align: center;
+align-items: center;
+}
+.likes2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+.wrap-free{
+    margin: 20px 0 50px 0;
+
+}
+.toy{
+    margin-top: 100px;
+}
+h3{
+    margin-top: 20px;
+}
+.Unlimited-p{
+    text-align: start;
+}
+.dollors9{
+    margin: 60px 0 50px 0;
+}
+.first-free{
+    margin: 100px 0 50px 0;
+}
+
+.wrap-viezh{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+border-radius: 10px;
+    
+height: 250px;
+padding: 30px;
+
+}
+.wrap-viezh:hover{
+    border: 2px solid #F53838;
+    transition: 0.3s;
+}
+.viezh{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.viezh-name{
+    padding: 0px 0 10px 10px;
+}
+.star1{
+    padding-right: 70px;
+height: 16px;
+font-size: 16px;
+line-height: 30px;
+}
+.star2{
+    width: 24px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    
+    
+}
+
+.wow-p{
+    width: 100%;
+    
+    padding: 0 0px 0 0;
+}
+.box-gap{
+    gap: 20px;
+    display: flex;
+}
+section{
+    padding: 80px 0;
+}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.wrap-btn{
+    display: flex;
+    gap: 15px;
+    
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.arrow-btn{
+    color: #F53838;
+    border: 2px solid #F53838;
+    width: 60px;
+height: 60px;
+font-size: 30px;
+border-radius: 30px;
+background-color: transparent;
+
+}
+.arrow-btn:hover{
+    color: #fff;
+    background-color:#F53838 ;
+    transition: 0.6s;
+}
+.wrap-arrow{
+    position: relative;
+}
+.trusted{
+    padding: 0 0px;
+}
+.locate{
+    text-align: center;
+    
+    
+}
+footer{
+    background-color: #F8F8F8;;
+}
+.footer{
+    display: flex;
+    gap: 20%;
+    padding: 220px 0 0 0;
+    
+        width: 100%;
+    
+}
+.wrap-subscribe{
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 135px;
+    margin-bottom: -175px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    z-index: 1;
+    box-shadow: 4px 4px 8px 0px rgba(13, 16, 37, 0.2);}
+
+.fun{
+  margin-top: 10px;
+}
+.link{
+    display: flex;
+}
+
+.product-text{
+    width: 150px;
+height: 40px;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+
+}
+.product h4{
+    margin-bottom: 20px;
+}
+.wrap-product{
+    display: flex;
+   
+}
+.img-sotiol{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.img-sotiol img{
+    width: 20%;
+height: 100px;
+}
