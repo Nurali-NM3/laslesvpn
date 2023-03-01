@@ -16,19 +16,27 @@
     header{
         padding: 45px 0;
     }
-
+    .provide{
+        margin-top: 20px;
+    }
     h1{
         
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     }
-    
-    .col-6- button{
-        margin: 0;
+    p{
+        font-size: 12px;
+    }
+    .Powerfull-p{
+        font-size: 12px;
     }
 
     h2{
         text-align: center;
+        font-size: 30px;
+    }
+    .explore{
+        font-size: 12px;
     }
     .subscribe h2{
         text-align: unset;
@@ -37,8 +45,18 @@
         padding: 20px 10px;
         align-items: center;
     }
+    .wantanything{
+        display: flex;
+        gap: 0;
+    }
     .wantanything p{
         text-align: center;
+        font-size: 12px;
+       
+    }
+    .contant{
+        gap: 0;
+        margin: 0;
     }
     
     .line-nav{
@@ -62,20 +80,19 @@
         font-size: 50px;
        
     }
-    .star1{
-        padding: 0;
-    }
-    .wow{
+    
+    .anketa-opinion p{
         width: 80%;
+        margin-right: 240px;
     }
-    .wrap-viezh{
+    .wrap-anketa{
        display: flex;
        flex-direction: row;
         width: 100%;
         margin-top: 20px;
-        height: 190px;
+        height: 90%;
     }
-    .viezh{
+    .anketa{
         width: 50%;
     }
     .box{
@@ -88,7 +105,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 280px;
+       
      }
     .wrap-icons{
         width: 100%;
@@ -99,21 +116,7 @@
         
         flex-direction: row;
     }
-    /* .contant{
-        padding: 0;
-    }
-    .nav{
-        display: none;
-    }
     
-    .wantanything{
-        gap: 0;
-    }
-    
-    .choose h2,p{
-        
-        padding: 0;
-    } */
     .chooseh2{
         width: 100%;
     }
@@ -127,31 +130,26 @@
         margin: 0;
     }
     
-    .locate{
-        width: 100%;
-        padding:0 50px ;
-    }
+    
     .wrap-subscribe{
         width: 100%;
     }
     
     .footer{
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .contact{
         flex-direction: row;
-        gap: 100px;
+        
     }
     .footer-lasles{
         display: none;
     }
-    .wrap-product{
-        display: none;
-    }
-    .star1{
-        padding-right: 0px;
     
-    }
+    
+    
 
 
 }
@@ -160,17 +158,16 @@
         max-width: 680px;
         padding: 0 15px;
     }
-    .chooseh2{
-        margin-bottom: 30px;
-    }
+    
     .contact{
-        flex-direction: row;
-        gap: 0px;
+        flex-direction: column;
+        gap: 30px;
+
     }
     .footer{
-        gap: 100px;
-        padding: 300px 0 0 0;
+        justify-content: flex-start;
     }
+    
     .menu2{
         display: block;
     }
@@ -182,9 +179,27 @@
         top: -15px;
         right:  400px;
     }
+    .locate{
+        margin: 0;
+        padding: 0 80px;
+    }
     .nav{
         display: none;
     }
+    .icons{
+        width: 100%;
+    }
+    .wrap-icons{
+        height: 100%;
+    }
+    .icons-line::before,
+    .icons-line::after{
+        display: none;
+    }
+    .wrap-c4{
+        gap: 150px;
+    }
+
     .header{
         position: relative;
         justify-content: space-between;
@@ -232,10 +247,69 @@
     section{
         padding: 0;
     }
-    .wrap-viezh{
-        height: 250px;
+    .anketa{
+        width: 100%;
     }
-    
+    .wrap-anketa{
+        height: 90%;
+        align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+           
+        
+    }
+    .wrap-toy{
+        flex-direction: column;
+    }
+    .choose{
+        margin: 20px 0;
+    }
+    .letchoose{
+        padding: 0 100px;
+    }
+    .img-laptop{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .toy img{
+        width: 100px;
+        margin-top: 20px;
+    }
+    .Powerfull-p {
+        font-size: 10px;
+    }
+    .wantanything p {
+        
+        
+        padding: 0 30px;
+    }
+    .product-text{
+        font-size: 12px;
+        width: 100px;
+    }
+    .wrap-subscribe {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .header-btn{
+        width: 100px;
+    }
+    .span-vpn
+    {
+        display: unset;
+    }
+    .explore{
+        text-align: center;
+    }
 }
 @media (max-width:360px){
     .container{
@@ -244,12 +318,58 @@
     }
     .wrap-toy{
         flex-wrap: wrap;
-        height: 600px;
+        
     }
     h1{
         font-size: 30px;
     }
-    h2{
-        font-size: 30px;
+    .span-features,
+    .span-vpn{
+        display: unset;
+        
+    }
+    .letchoose,
+    .locate{
+        padding: 0;
+    }
+    .product{
+        margin: 0;
+    }
+    .star2{
+        margin: 0;
+    }
+    .arrow-btn {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;  
+    }
+    .arrow-btn span {
+        font-size: 20px;
+    }
+    .arrow svg{
+        width: 100px;
+    }
+    .likes{
+        padding: 40px 0 0 0;
+        margin: 0;
+    }
+    .free{
+        text-align: center;
+        height: 25px;
+    }
+    .col-6-button{
+        margin-bottom: 20px;
+    }
+    .explore{
+        font-size: 10px;
+        line-height: 25px;
+        padding: 0 30px;
+    }
+    .user{
+        font-size: 12px;
+    }
+    .anketa-opinion p{
+        width: 80%;
+        margin:0px;
     }
 }
